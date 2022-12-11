@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AdventOfCode._2022.Day1
+{
+    internal class Day1
+    {
+        List<List<int>> elves = new List<List<int>>();
+        List<int> currentElve = new List<int>();
+        List<int> calories = new List<int>();
+
+        public void CountCalories()
+        {
+            Console.WriteLine("- Day 1 -");
+            ReadFile();
+            HighestCalories();
+            Console.WriteLine();
+        }
+
+        public void ReadFile()
+        {
+            foreach (var line in File.ReadLines("\\Users\\HeadShopper\\source\\repos\\AdventOfCode\\AdventOfCode\\2022\\Day1\\input.txt"))
+            {                
+                if (string.IsNullOrEmpty(line))
+                {
+                    elves.Add(currentElve);
+                    currentElve = new List<int>();
+                }
+                else
+                {
+                    int value = int.Parse(line);
+                    currentElve.Add(value);
+                }
+            }
+            elves.Add(currentElve);
+        }
+
+        public void HighestCalories()
+        {
+            foreach (var elve in elves)
+            {
+                int sum = elve.Sum();
+                calories.Add(sum);
+            }
+
+            Console.WriteLine("Highest calories: " + calories.Max());
+        }
+    }
+}

@@ -20,10 +20,11 @@ namespace AdventOfCode._2022.Day1
             Console.WriteLine();
         }
 
+        // Read file and add to list
         public void ReadFile()
         {
             foreach (var line in File.ReadLines("\\Users\\HeadShopper\\source\\repos\\AdventOfCode\\AdventOfCode\\2022\\Day1\\input.txt"))
-            {                
+            {
                 if (string.IsNullOrEmpty(line))
                 {
                     elves.Add(currentElve);
@@ -38,6 +39,8 @@ namespace AdventOfCode._2022.Day1
             elves.Add(currentElve);
         }
 
+
+        // Get sum of top 3 elves with most calories
         public void HighestCalories()
         {
             foreach (var elve in elves)
@@ -45,8 +48,12 @@ namespace AdventOfCode._2022.Day1
                 int sum = elve.Sum();
                 calories.Add(sum);
             }
-
-            Console.WriteLine("Highest calories: " + calories.Max());
+            calories.Sort();
+            calories.Reverse();
+            int totalCals = calories[0] + calories[1] + calories[2];
+            Console.WriteLine("Highest calories: " + totalCals);
         }
+
+
     }
 }

@@ -33,68 +33,81 @@ namespace AdventOfCode._2022.Day2
     internal class Day2
     {
         int score = 0;
+        List<List<string>> sets = new List<List<string>>();
 
         public void RockPaperSciccors()
         {
             Console.WriteLine("- Day 2 -");
             ReadFile();
+            CalculateScore();
             Console.WriteLine();
         }
 
         public void ReadFile()
         {
-
-            foreach (var chars in File.ReadAllText("\\Users\\HeadShopper\\source\\repos\\AdventOfCode\\AdventOfCode\\2022\\Day2\\example_input.txt"))
+            foreach (var line in File.ReadLines(@"2022/Day2/input.txt"))
             {
-                if (chars == 'A')
-                {
+                var firstChar = line.Split(' ').First();
+                var secondChar = line.Split(' ').Last();
 
-
-
-                    if (chars == 'X') // rock vs rock (Draw)
-                    {
-                        ScoreDraw();
-
-                    }
-                    else if (chars == 'Y') // rock vs paper (Win)        ----        this is first line in example input
-                    {
-                        ScoreWin();
-                        Console.WriteLine("A/Y" + score);
-                    }
-                    else if (chars == 'Z') // rock vs sciccors (Loss)
-                    {
-
-                    }
-
-                }
-                Console.WriteLine(score);
+                if (line.Split().Count() < 2) continue;
+                sets.Add(line.Split().ToList());
             }
         }
 
-        // scoring methods
-        public void ScoreRock()
+        public void CalculateScore()
         {
-            score += 1;
-        }
+            foreach (var set in sets)
+            {
+                // Rock vs Rock
+                if (set[0] == "A" && set[1] == "X")
+                {
+                    score += 1 + 3;
+                }
+                // Rock vs Paper
+                else if (set[0] == "A" && set[1] == "Y")
+                {
+                    score += 2 + 6;
+                }
+                // Rock vs Scissors
+                else if (set[0] == "A" && set[1] == "Z")
+                {
+                    score += 3 + 0;
+                }
 
-        public void ScorePaper()
-        {
-            score += 2;
-        }
+                // Paper vs Rock
+                else if (set[0] == "B" && set[1] == "X")
+                {
+                    score += 1 + 0;
+                }
+                // Paper vs Paper
+                else if (set[0] == "B" && set[1] == "Y")
+                {
+                    score += 2 + 3;
+                }
+                // Paper vs Scissors
+                else if (set[0] == "B" && set[1] == "Z")
+                {
+                    score += 3 + 6;
+                }
 
-        public void ScoreSciccors()
-        {
-            score += 3;
-        }
-
-        public void ScoreDraw()
-        {
-            score += 3;
-        }
-
-        public void ScoreWin()
-        {
-            score += 6;
+                // Scissors vs Rock
+                else if (set[0] == "C" && set[1] == "X")
+                {
+                    score += 1 + 6;
+                }
+                // Scissors vs Paper
+                else if (set[0] == "C" && set[1] == "Y")
+                {
+                    score += 2 + 0;
+                }
+                // Scissors vs Scissors
+                else if (set[0] == "C" && set[1] == "Z")
+                {
+                    score += 3 + 3;
+                }
+            }
+            Console.WriteLine("Score: " + score);
         }
     }
 }

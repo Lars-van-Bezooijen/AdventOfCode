@@ -17,3 +17,22 @@ C:\Users\HeadShopper\source\repos\AdventOfCode\AdventOfCode\bin\Debug\net6.0\202
 C:\Users\HeadShopper\source\repos\AdventOfCode\AdventOfCode\bin\Debug\net6.0\2022\Day1\example_input.txt
 C:\Users\HeadShopper\source\repos\AdventOfCode\AdventOfCode\bin\Debug\net6.0\2022\Day1\input.txt
 C:\Users\HeadShopper\source\repos\AdventOfCode\AdventOfCode\bin\Debug\net6.0\2022\Day2\example_input.txt
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\bin\Debug\net6.0\AdventOfCode.exe
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\bin\Debug\net6.0\2022\Day1\example_input.txt
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\bin\Debug\net6.0\2022\Day1\input.txt
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\bin\Debug\net6.0\2022\Day2\example_input.txt
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\bin\Debug\net6.0\2022\Day2\input.txt
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\bin\Debug\net6.0\AdventOfCode.deps.json
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\bin\Debug\net6.0\AdventOfCode.runtimeconfig.json
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\bin\Debug\net6.0\AdventOfCode.dll
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\bin\Debug\net6.0\AdventOfCode.pdb
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\AdventOfCode.csproj.AssemblyReference.cache
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\AdventOfCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\AdventOfCode.AssemblyInfoInputs.cache
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\AdventOfCode.AssemblyInfo.cs
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\AdventOfCode.csproj.CoreCompileInputs.cache
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\AdventOfCode.dll
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\refint\AdventOfCode.dll
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\AdventOfCode.pdb
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\AdventOfCode.genruntimeconfig.cache
+C:\Users\latsv\OneDrive - Curio\School\Blok C\NATIVE\Visual Studio Projects\AdventOfCode\AdventOfCode\obj\Debug\net6.0\ref\AdventOfCode.dll

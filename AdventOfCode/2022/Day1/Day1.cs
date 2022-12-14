@@ -23,7 +23,7 @@ namespace AdventOfCode._2022.Day1
         // Read file and add to list
         public void ReadFile()
         {
-            foreach (var line in File.ReadLines("\\Users\\HeadShopper\\source\\repos\\AdventOfCode\\AdventOfCode\\2022\\Day1\\input.txt"))
+            foreach (var line in File.ReadLines(@"2022/Day1/input.txt"))
             {
                 if (string.IsNullOrEmpty(line))
                 {

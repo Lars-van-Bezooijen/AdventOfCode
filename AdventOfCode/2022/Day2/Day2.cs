@@ -16,8 +16,6 @@ X: Rock
 Y: Paper
 Z: Scissors
 
-Winning everytime is sus
-
 Your total score is the sum of your scores for each round.
 ---
 The score for a single round is the score for the shape you selected 
@@ -47,9 +45,6 @@ namespace AdventOfCode._2022.Day2
         {
             foreach (var line in File.ReadLines(@"2022/Day2/input.txt"))
             {
-                var firstChar = line.Split(' ').First();
-                var secondChar = line.Split(' ').Last();
-
                 if (line.Split().Count() < 2) continue;
                 sets.Add(line.Split().ToList());
             }
